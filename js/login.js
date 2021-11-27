@@ -4,7 +4,7 @@ const loginInput = document.querySelector("#loginform input");
 const h1text = document.querySelector("#login_name");
 
 function paintingname(a) {
-    h1text.innerText = `hello ${a} !!`;
+    h1text.innerText = `Hello😘 ${a} !!`;
     h1text.classList.remove("hidden");
     todoForm.classList.remove("hidden");
     todoList.classList.remove("hidden");

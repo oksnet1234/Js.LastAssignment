@@ -81,17 +81,18 @@ body {
     font-size: xx-large;
     border: 2px solid blue;
     border-radius: 4px;
-    padding-left: 5px;
 }
 
 #todoform input::placeholder {
     font-size: 20px;
+    text-align: center;
     
 }
 
 
 #todobutton {
     font-size: xx-large;
+    color : red;
 }
 
 
