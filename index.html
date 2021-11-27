@@ -8,13 +8,17 @@
     <title>Vanilla Js Challenge last assignment!!</title>
 </head>
 <body>
+    <section id="main-title">
+    <h1> My Momemtom ⭐️ </h1>
+    </section>  
+<section id="main-dish">
     <!-- clock -->
     <h2 class="myclock"></h2>
     
     <!-- login -->
     <form id="loginform" class="hidden">
         <input required placeholder="Write your name" />
-        <input required type="submit" value="submit"/>
+        <input required type="submit" value="login"/>
     </form>
 
     <h1 class="hidden" id="login_name"></h1>
@@ -22,11 +26,11 @@
 
 
     <!-- todo -->
-    <form id="todoform">
+    <form id="todoform" class="hidden">
         <input placeholder="Write here what u to do!!" required/>
-        <button id="todobutton" type="submit">Done!</button>
+        <button id="todobutton" type="submit">Let's do it!</button>
     </form>
-    <ul id="todolist"></ul>
+    <ul id="todolist" class="hidden"></ul>
 
     <!-- weather -->
     <div id="weather">
@@ -36,9 +40,10 @@
 
 
     <!-- clear -->
-    <button id="clear">🌊  clear </button>
+    <button id="clear">🌊  clear all</button>
+</section>
 
-    
+    <!--js script-->
     <script src="js/clock.js"></script>
     <script src="js/login.js"></script>
     <script src="js/randomimg.js"></script>

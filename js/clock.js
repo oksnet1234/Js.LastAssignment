@@ -6,7 +6,7 @@ function clocktime() {
     const hour = String(today.getHours()).padStart(2,"0");
     const min = String(today.getMinutes()).padStart(2,"0");
     const sec = String(today.getSeconds()).padStart(2,"0");
-    myclock.innerText = `${hour}:${min}:${sec}`;
+    myclock.innerText = `Now time ${hour}:${min}:${sec}`;
 }
 
 

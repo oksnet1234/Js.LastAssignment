@@ -6,3 +6,76 @@
 button {
     font-size: medium;
 }
+
+#main-dish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top : 10vh;
+    background-image : linear-gradient(rgb(255, 94, 87), rgb(60, 64, 198));
+    width : 80vw;
+    border-radius: 20px;
+    position: relative;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-title {
+    margin-top: 5vh;
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 80vw;
+}
+
+#main-title h1 {
+    font-size: xx-large;
+}
+
+.myclock {
+    position: absolute;
+    right : 3%;
+    top: 3%;
+    font-size: medium;
+}
+
+#loginform {
+    padding-top: 10px;
+}
+
+#loginform input:first-child {
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+#login_name {
+    font-size: 60px;
+}
+
+#loginform input:last-child {
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+
+#todoform input {
+    font-size: xx-large;
+}
+
+#todobutton {
+    font-size: xx-large;
+}
+
+
+#weather {
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+}

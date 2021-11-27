@@ -5,6 +5,10 @@ const todoList = document.querySelector("#todolist");
 const savedToDo = localStorage.getItem("todos");
 const clear = document.querySelector("#clear");
 
+if (savedUsername !== null) {
+    todoForm.classList.remove("hidden");
+    todoList.classList.remove("hidden");
+}
 
 let toDos = [];
 
@@ -25,8 +29,12 @@ function painting(a) {
   li.id = a.id;
   const span = document.createElement("span");
   span.innerText = a.text;
+  span.style.fontSize = "x-large";
+  span.style.marginRight = "10px";
   const button = document.createElement("button");
   button.innerText = "⌫";
+  button.style.fontSize = "x-large";
+  button.style.marginRight = "10px";
   button.addEventListener("click",toDodeletefunction);
   todoList.appendChild(li);
   li.appendChild(span);

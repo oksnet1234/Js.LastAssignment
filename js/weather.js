@@ -11,8 +11,8 @@ function wellworking(a) {
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
     fetch(url).then((a) => a.json()).then((a) =>
     {
-        mylocation.innerText = a.name;
-        nowWeather.innerText = `/${a.weather[0].main} / ${a.main.temp}`;
+        mylocation.innerText = ` 🌏 ${a.name}`;
+        nowWeather.innerText = ` 👉 ${a.weather[0].main}  🌡 ${a.main.temp}`;
         console.log(a);
     });
 }
