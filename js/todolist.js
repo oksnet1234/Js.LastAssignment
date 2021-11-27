@@ -27,10 +27,11 @@ function saveToDos() {
 function painting(a) {
   const li = document.createElement("li");
   li.id = a.id;
-  li.style.listStyle = "url(https://bit.ly/2GqYPc7)"
+  li.style.display = "flex";
+  li.style.alignItems = "center";
   const span = document.createElement("span");
-  span.innerText = a.text;
-  span.style.fontSize = "38px";
+  span.innerText = `🗂 ${a.text}`;
+  span.style.fontSize = "28px";
   span.style.marginRight = "10px";
   const button = document.createElement("button");
   button.innerText = "⌫";
