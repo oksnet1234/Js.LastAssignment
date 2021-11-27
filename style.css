@@ -46,22 +46,21 @@ body {
     font-size: medium;
 }
 
-#loginform {
-    padding-top: 10px;
-}
-
 #loginform input:first-child {
     font-size: xx-large;
-    padding-top: 10px;
+    padding-top: 5px;
+    margin-top: 5px;
 }
 
 #login_name {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 #loginform input:last-child {
     font-size: xx-large;
-    padding-top: 10px;
+    padding-top: 5px;
+    margin-top: 5px;
+
 }
 
 
@@ -78,4 +77,9 @@ body {
     position: absolute;
     bottom: 5%;
     right: 3%;
+}
+
+#clear {
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
